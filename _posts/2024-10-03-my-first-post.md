@@ -6,8 +6,6 @@ categories: blog
 tags: [學習, 益智遊戲, Pygame]
 ---
 
-## 歡迎來到我的部落格
-
 import pygame  
 from pygame.locals import *  
 

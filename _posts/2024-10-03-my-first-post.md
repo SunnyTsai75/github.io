@@ -7,42 +7,42 @@ tags: [學習, 益智遊戲, Pygame]
 ---
 
 ```python
-import pygame  
-from pygame.locals import *  
+import pygame
+from pygame.locals import *
 
-pygame.init()  
+pygame.init()
 
 # 設定遊戲化地的大小，並且在遊戲視窗上命名。
-screen_width = 300  
-screen_height = 300  
-screen = pygame.display.set_mode((screen_width, screen_height))  
-pygame.display.set_caption("Tic Tac Toe ")  
+screen_width = 300
+screen_height = 300
+screen = pygame.display.set_mode((screen_width, screen_height))
+pygame.display.set_caption("Tic Tac Toe ")
 
 # define variable
-mark_list = []  
-line_width = 6  
+mark_list = []
+line_width = 6
  
-def draw_grird():  
-    bg = (255, 255, 200)  
-    grid = (50, 50, 50)  
-    screen.fill(bg)  
-    for line in range(1, 3):  
-        pygame.draw.line(screen, grid, (0, line * 100), (screen_width, line * 100), line_width)  
-        pygame.draw.line(screen, grid, (line * 100, 0), (line * 100, screen_height), line_width)  
+def draw_grird():
+    bg = (255, 255, 200)
+    grid = (50, 50, 50)
+    screen.fill(bg)
+    for line in range(1, 3):
+        pygame.draw.line(screen, grid, (0, line * 100), (screen_width, line * 100), line_width)
+        pygame.draw.line(screen, grid, (line * 100, 0), (line * 100, screen_height), line_width)
 
 # 將陣列。
-for x in range(3):  
-    row = [0] * 3  
-    mark_list.append(row)  
+for x in range(3):
+    row = [0] * 3
+    mark_list.append(row)
 
 # 遊戲的主要運行程式。
-run = True  
+run = True
 while run:  
-    draw_grird()  
-    #add event handlers   
-    for event in pygame.event.get():  
-        if event.type == pygame.QUIT:  
-            run = False  
-    pygame.display.update()  
+    draw_grird()
+    #add event handlers 
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            run = False
+    pygame.display.update()
 
-pygame.quit()  
+pygame.quit()

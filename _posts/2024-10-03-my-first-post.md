@@ -11,7 +11,7 @@ from pygame.locals import *
 
 pygame.init()  
 
-# set screen size and windows name
+# 設定遊戲化地的大小，並且在遊戲視窗上命名。
 screen_width = 300  
 screen_height = 300  
 screen = pygame.display.set_mode((screen_width, screen_height))  
@@ -33,17 +33,14 @@ for x in range(3):
     row = [0] * 3  
     mark_list.append(row)  
 
-#main loop
+# main loop
 run = True  
 while run:  
-
     draw_grird()  
-    
     #add event handlers   
     for event in pygame.event.get():  
         if event.type == pygame.QUIT:  
             run = False  
-
     pygame.display.update()  
 
 pygame.quit()  

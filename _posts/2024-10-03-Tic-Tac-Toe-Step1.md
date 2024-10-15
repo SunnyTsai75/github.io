@@ -7,9 +7,9 @@ tags: [學習, 益智遊戲, Pygame]
 ---
 測試
 
-
-import pygame  
-from pygame.locals import *  
+```python
+import pygame
+from pygame.locals import *
 
 pygame.init()
 

@@ -22,7 +22,7 @@ pygame.display.set_caption("Tic Tac Toe ")
 mark_list = []
 line_width = 6
  
-def draw_grird():
+def draw_grid():
     bg = (255, 255, 200)
     grid = (50, 50, 50)
     screen.fill(bg)
@@ -38,7 +38,7 @@ for x in range(3):
 # 遊戲的主要運行程式。
 run = True
 while run:  
-    draw_grird()
+    draw_grid()
     #add event handlers 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:

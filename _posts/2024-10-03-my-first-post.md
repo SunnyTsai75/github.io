@@ -5,7 +5,7 @@ date: 2024-10-03
 categories: blog
 tags: [學習, 益智遊戲, Pygame]
 ---
-
+```python
 import pygame  
 from pygame.locals import *  
 

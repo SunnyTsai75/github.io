@@ -29,11 +29,12 @@ def draw_grird():
         pygame.draw.line(screen, grid, (0, line * 100), (screen_width, line * 100), line_width)  
         pygame.draw.line(screen, grid, (line * 100, 0), (line * 100, screen_height), line_width)  
 
+# 將陣列。
 for x in range(3):  
     row = [0] * 3  
     mark_list.append(row)  
 
-# main loop
+# 遊戲的主要運行程式。
 run = True  
 while run:  
     draw_grird()  

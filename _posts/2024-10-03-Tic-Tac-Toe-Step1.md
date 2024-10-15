@@ -37,9 +37,9 @@ for x in range(3):
 
 # 遊戲的主要運行程式。
 run = True
-while run:  
+while run:
     draw_grid()
-    #add event handlers 
+    #add event handlers
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             run = False

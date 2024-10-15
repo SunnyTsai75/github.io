@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "我的第一篇文章"
+title: "Tic Tac Toe Step1"
 date: 2024-10-03
 categories: blog
-tags: [遊戲開發, 平台遊戲, Unity2D]
+tags: [學習, 益智遊戲, Pygame]
 ---
 
 ## 歡迎來到我的部落格

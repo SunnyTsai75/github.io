@@ -8,6 +8,7 @@ tags: [學習, 益智遊戲, Pygame]
 
 
 ```python
+
 # Write your code here :-)
 
 import pygame
@@ -92,9 +93,7 @@ while run:
             if mark_list[mouse_x][mouse_y] == 0:
                 mark_list[mouse_x][mouse_y] = player
                 player = player * -1
-
     draw_markers()
     pygame.display.update()
-
 pygame.quit()
 

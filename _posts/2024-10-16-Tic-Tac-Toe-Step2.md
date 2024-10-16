@@ -6,6 +6,7 @@ categories: blog
 tags: [學習, 益智遊戲, Pygame]
 ---
 
+
 ```python
 # Write your code here :-)
 

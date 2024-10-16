@@ -6,7 +6,7 @@ categories: blog
 tags: [學習, 益智遊戲, Pygame]
 ---
 
-```python
+‵‵‵python
 import pygame
 from pygame.locals import *
 

@@ -1,7 +1,3 @@
-
-For example, your post should look like this in the markdown file:
-
-```markdown
 ---
 layout: post
 title: "Tic Tac Toe Step1"
@@ -16,13 +12,11 @@ from pygame.locals import *
 
 pygame.init()
 
-# 設定遊戲化地的大小，並且在遊戲視窗上命名。
 screen_width = 300
 screen_height = 300
 screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption("Tic Tac Toe ")
 
-# define variable
 mark_list = []
 line_width = 6
  
@@ -34,12 +28,10 @@ def draw_grird():
         pygame.draw.line(screen, grid, (0, line * 100), (screen_width, line * 100), line_width)
         pygame.draw.line(screen, grid, (line * 100, 0), (line * 100, screen_height), line_width)
 
-# 將陣列。
 for x in range(3):
     row = [0] * 3
     mark_list.append(row)
 
-# 遊戲的主要運行程式。
 run = True
 while run:  
     draw_grird()

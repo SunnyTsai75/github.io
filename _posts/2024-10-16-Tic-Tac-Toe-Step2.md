@@ -74,6 +74,8 @@ for x in range(3):
     row = [0] * 3
     mark_list.append(row)
 
+
+
 #main loop
 run = True
 while run:

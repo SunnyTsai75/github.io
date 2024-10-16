@@ -6,7 +6,7 @@ categories: blog
 tags: [學習, 益智遊戲, Pygame]
 ---
 
-
+```python
 import pygame  
 from pygame.locals import *  
 
@@ -20,7 +20,6 @@ pygame.display.set_caption("Tic Tac Toe ")
 mark_list = []  
 line_width = 6  
  
-```
 def draw_grird():  
     bg = (255, 255, 200)  
     grid = (50, 50, 50)  
@@ -33,8 +32,6 @@ for x in range(3):
     row = [0] * 3  
     mark_list.append(row)  
 
-
-```#測試
 run = True  
 while run:  
     draw_grird()  

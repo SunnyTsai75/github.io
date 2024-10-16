@@ -33,7 +33,7 @@ for x in range(3):
     mark_list.append(row)  
 
 
-#測試
+```#測試
 run = True  
 while run:  
     draw_grird()  

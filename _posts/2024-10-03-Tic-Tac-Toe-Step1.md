@@ -20,6 +20,7 @@ pygame.display.set_caption("Tic Tac Toe ")
 mark_list = []  
 line_width = 6  
  
+```
 def draw_grird():  
     bg = (255, 255, 200)  
     grid = (50, 50, 50)  

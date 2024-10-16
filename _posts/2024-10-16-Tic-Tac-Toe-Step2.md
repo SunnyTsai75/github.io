@@ -99,5 +99,6 @@ while run:
                 player = player * -1
     draw_markers()
     pygame.display.update()
+
 pygame.quit()
 

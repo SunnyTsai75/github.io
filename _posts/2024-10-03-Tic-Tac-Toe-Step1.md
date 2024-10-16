@@ -1,3 +1,7 @@
+
+For example, your post should look like this in the markdown file:
+
+```markdown
 ---
 layout: post
 title: "Tic Tac Toe Step1"
@@ -5,7 +9,6 @@ date: 2024-10-03
 categories: blog
 tags: [學習, 益智遊戲, Pygame]
 ---
-測試
 
 ```python
 import pygame
@@ -23,7 +26,7 @@ pygame.display.set_caption("Tic Tac Toe ")
 mark_list = []
 line_width = 6
  
-def draw_grid():
+def draw_grird():
     bg = (255, 255, 200)
     grid = (50, 50, 50)
     screen.fill(bg)
@@ -38,9 +41,9 @@ for x in range(3):
 
 # 遊戲的主要運行程式。
 run = True
-while run:
-    draw_grid()
-    #add event handlers
+while run:  
+    draw_grird()
+    #add event handlers 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             run = False

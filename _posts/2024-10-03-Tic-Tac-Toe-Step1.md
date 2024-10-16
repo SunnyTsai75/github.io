@@ -6,9 +6,9 @@ categories: blog
 tags: [學習, 益智遊戲, Pygame]
 ---
 
-‵‵‵python
-import pygame
-from pygame.locals import *
+
+import pygame  
+from pygame.locals import *  
 
 pygame.init()
 
@@ -33,9 +33,8 @@ for x in range(3):
     mark_list.append(row)
 
 run = True
-while run:  
+while run:
     draw_grird()
-    #add event handlers 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             run = False

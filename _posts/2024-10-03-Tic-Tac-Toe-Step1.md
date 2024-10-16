@@ -35,7 +35,8 @@ for x in range(3):
     row = [0] * 3  
     mark_list.append(row)  
 
-```# 遊戲的主要運行程式。
+```python
+# 遊戲的主要運行程式。
 run = True  
 while run:  
     draw_grird()  

@@ -72,14 +72,10 @@ for x in range(3):
     row = [0] * 3
     mark_list.append(row)
 
-
-
 #main loop
 run = True
 while run:
-
     draw_grird()
-
     # add event handlers
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
